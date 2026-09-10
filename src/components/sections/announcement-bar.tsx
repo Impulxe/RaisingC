@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#005dab] border-b border-[#005dab]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#d71c2e] border-b border-[#d71c2e]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
@@ -58,7 +58,7 @@ const AnnouncementBar = () => {
                 <span className="text-white tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your Costco reward
+                minutes left to unlock your Raising Cane's reward
               </p>
             </div>
         </div>
@@ -74,7 +74,7 @@ const AnnouncementBar = () => {
       </div>
 
       {/* Shimmering Bottom Border Accent */}
-      <div className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-transparent via-[#005dab] to-transparent w-full opacity-50 overflow-hidden">
+      <div className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-transparent via-[#d71c2e] to-transparent w-full opacity-50 overflow-hidden">
         <div className="absolute inset-0 bg-white/20 animate-shine"></div>
       </div>
     </div>

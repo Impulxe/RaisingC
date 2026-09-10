@@ -9,7 +9,7 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
     >
       <img
-        src="/costco-logo.png"
+        src="/RClogo.png"
         alt="Costco Logo"
         className="h-20 sm:h-28 w-auto object-contain transition-all duration-700 hover:brightness-110"
       />
